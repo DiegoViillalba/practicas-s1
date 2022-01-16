@@ -20,7 +20,7 @@ int main()
 
     printf("Esta es la lista de los números primos existentes entre 1 y 1000\n");
 
-    while(j<=1000000){
+    while(j<=1000){
         if(i<j){
             if(j%i==0){
             j = j+1;
@@ -46,5 +46,5 @@ int main()
     }
 
     printf("\n");
-    printf("Total de números primos antes de 1000 : %d \n", total);
+    printf("Total de numeros primos entre 1 y 1000 : %d \n", total);
 }
